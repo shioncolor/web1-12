@@ -22,9 +22,5 @@ for(i=0; i<word; i++){
     System.out.println("buzz");
   }
   
-  if(i==a)
-  {
-    break;
-  }
 }
 
