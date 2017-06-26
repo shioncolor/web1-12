@@ -6,25 +6,25 @@ for(i=0; i<word; i++){
 var li=document.createElement('li');
   if(word%3==0)
   {
-   li.tectContent='fizz';
+   li.textContent='fizz';
    doument.getElementById('list').appendhild(li);
   }
   else if(word%5==0)
   {
-    li.tectContent='buzz';
+    li.textContent='buzz';
    doument.getElementById('list').appendhild(li);
   }
   else if(word%5==0 && word%3==0)
   {
-   li.tectContent='fizz';
+   li.textContent='fizz';
    doument.getElementById('list').appendhild(li);
     
-   li.tectContent='buzz';
+   li.textContent='buzz';
    doument.getElementById('list').appendhild(li);
   }
   else
   {
-    li.tectContent=i;
+    li.textContent=i;
    doument.getElementById('list').appendhild(li);
   }
 }
