@@ -23,7 +23,7 @@ while(true){
     System.out.println("buzz");
   }
   else{
-    lSystem.out.println(i);
+    System.out.println(i);
     }
   
   if(i==a)
