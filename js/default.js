@@ -1,38 +1,35 @@
-var li=document.createElement('li');
-li.textContent='アイテム';
-document.getElementById('list').appendChild(li);
-
-document.getElementById('form').onsubmit=function(){
-window.alert(document.getElementById('form').word.value);
-};
 
 var i=0;
+int a;
+
+document.getElementById('form').onsubimt=funvtion()
+{
+window.alert(document.getElementById('form').word.value)
+}
+
+a=word;
+
 while(true){
   i+=1;
-  if(word%3==0)
+  
+  if(a%3==0)
   {
-    li.textContent='fizz';
-    document.getElementById('list').appendChild(li);
+   System.out.println("fizz");
   }
-  else if(word%5==0)
+  else if(a%5==0)
   {
-    li.textContent='buzz';
-    document.getElementById('list').appendChild(li);
+    System.out.println("buzz");
   }
-  else if(word%5==0 && word%3==0)
+  else if(a%5==0 && a%3==0)
   {
-    li.textContent='fizz';
-    document.getElementById('list').appendChild(li);
-   
-    li.textContent='buzz';
-    document.getElementById('list').appendChild(li);
+    System.out.println("fizz");
+    System.out.println("buzz");
   }
   else{
-    li.textContent=word;
-    document.getElementById('list').appendChild(li);
+    lSystem.out.println(i);
     }
   
-  if(i==word)
+  if(i==a)
   {
     break;
   }
