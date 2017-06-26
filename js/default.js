@@ -1,6 +1,6 @@
 
 var i=0;
-int a;
+var a;
 
 document.getElementById('form').onsubimt=funvtion()
 {
