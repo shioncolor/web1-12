@@ -6,9 +6,8 @@ var word
 
 a=word;
 
-while(true){
-  i+=1;
-  
+for(i=0; i<word; i++){
+
   if(a%3==0)
   {
    System.out.println("fizz");
