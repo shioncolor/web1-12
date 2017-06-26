@@ -22,9 +22,6 @@ while(true){
     System.out.println("fizz");
     System.out.println("buzz");
   }
-  else{
-    System.out.println(i);
-    }
   
   if(i==a)
   {
