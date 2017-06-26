@@ -3,7 +3,7 @@ li.textContent='アイテム';
 document.getElementById('list').appendChild(li);
 
 doument.getElementById('form').onsubmit=function(){
-window.alert(document.getElementById('formm')..word.valie);
+window.alert(document.getElementById('form').word.value);
 };
 
 for(var i=1; i< word; i++)
