@@ -10,17 +10,25 @@ for(var i=1; i< word; i++)
 {
   if(word%3==0)
   {
-  li.textContent='fizz';
+    var li=document.createElement('li');
+    li.textContent='fizz';
+    document.getElementById('list').appendChild(li)
   }
   else if(word%5==0)
   {
-  li.textContent='buzz';
+    var li=document.createElement('li');
+    li.textContent='buzz';
+    document.getElementById('list').appendChild(li)
   }
   else if(word%5==0 && word%3==0)
   {
+    var li=document.createElement('li');
     li.textContent='fizz';
+    document.getElementById('list').appendChild(li)
     
+   var li=document.createElement('li');
     li.textContent='buzz';
+    document.getElementById('list').appendChild(li)
   }
   else{
     li.textContent=word;
