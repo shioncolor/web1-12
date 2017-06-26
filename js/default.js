@@ -1,6 +1,7 @@
 
 var i=0;
 var a;
+var word
 
 
 a=word;
