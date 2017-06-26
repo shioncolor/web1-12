@@ -4,23 +4,32 @@ document.getElementById('list').appendChild(li);
 
 for(var i=1; i<word; i++)
 {
-document.getElementById('form').onsubmit=function()
-{
   if(word%3==0)
   {
-  window.alert(document.getElementById('form').Fizz.value);
+  war li=document.createElement('li');
+  li.textContent='fizz';
+  document.getElementById('list').appendChild(li);
   }
   else if(word%5==0)
   {
-  window.alert(document.getElementById('form').Buzz.value);
+  ar li=document.createElement('li');
+  li.textContent='buzz';
+  document.getElementById('list').appendChild(li);
   }
   else if(word%5==0 && word%3==0)
   {
-    window.alert(document.getElementById('form').Buzz.value);
-    window.alert(document.getElementById('form').Fizz.value);
+    ar li=document.createElement('li');
+    li.textContent='fizz';
+    document.getElementById('list').appendChild(li);
+    
+    ar li=document.createElement('li');
+    li.textContent='buzz';
+    document.getElementById('list').appendChild(li);
   }
   else{
-window.alert(document.getElementById('form').i.value);
+    var li=document.createElement('li');
+    li.textContent=word
+    document.getElementById('list').appendChild(li);
   }
 };
-}
+
