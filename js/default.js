@@ -4,6 +4,6 @@ document.getElementById('list').appendChild(li);
 
 document.getElementById('form').onsubmit=function()
 {
-window.alert(document.getElementByTd('form').word.value);
+window.alert(document.getElementById('form').word.value);
 };
 
