@@ -14,7 +14,7 @@ document.getElementById('form').onsubmit=function()
   {
   window.alert(document.getElementById('form').Buzz.value);
   }
-  else if(word%5==0& & word%3==0)
+  else if(word%5==0 && word%3==0)
   {
     window.alert(document.getElementById('form').Buzz.value);
     window.alert(document.getElementById('form').Fizz.value);
