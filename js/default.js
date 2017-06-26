@@ -2,7 +2,11 @@ var li=document.createElement('li');
 li.textContent='アイテム';
 document.getElementById('list').appendChild(li);
 
-for(var i=1; i<word; i++)
+doument.getElementById('form').onsubmit=function(){
+window.alert(document.getElementById('formm')..word.valie);
+};
+
+for(var i=1; i< word; i++)
 {
   if(word%3==0)
   {
@@ -31,5 +35,5 @@ for(var i=1; i<word; i++)
     li.textContent=word
     document.getElementById('list').appendChild(li);
   }
-};
+}
 
