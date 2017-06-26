@@ -2,7 +2,7 @@
 var i=0;
 var word;
 
-var li.document.createElement('li');
+var li=document.createElement('li');
 
 for(i=0; i<word; i++){
 
