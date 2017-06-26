@@ -2,10 +2,8 @@
 var i=0;
 var word;
 
-var li=document.createElement('li');
-
 for(i=0; i<word; i++){
-
+var li=document.createElement('li');
   if(word%3==0)
   {
    li.tectContent='fizz';
