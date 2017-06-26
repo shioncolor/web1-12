@@ -2,10 +2,6 @@
 var i=0;
 var a;
 
-document.getElementById('form').onsubimt=function()
-{
-window.alert(document.getElementById('form').word.value)
-}
 
 a=word;
 
